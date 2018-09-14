@@ -10,7 +10,8 @@ html, body, div {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     background-color: #94a187;
-    background-image: linear-gradient(#94a187, #aeb8a4);
+    background-image: linear-gradient(#94a187, #aeb8a4); 
+    /* background-image: url('../assets/background.jpg'); */
 }
 
 .mainBox {
@@ -21,14 +22,14 @@ html, body, div {
     grid-template-rows: repeat(10, 1fr);
     background-color: #29524a;
     background-image: linear-gradient(to bottom right, #204e46, #6c9b91);
-    
+    box-shadow: 8px 8px 5px grey;
 }
 
 .titleBox {
     font-size: 100%;
-    margin-left: 30px;
-    grid-column : 1 / span 3;
-    grid-row : 1 / span 2;
+    padding-left: 30px;
+    grid-column : 1 / -1;
+    grid-row : 1 / span 1;
     font-family: 'Impact';
 }
 
@@ -37,7 +38,6 @@ html, body, div {
     margin-left: 30px;
     grid-column: 1 / span 3;
     grid-row: 2 / span 1;
-    margin-top: 30px;
     font-family: 'Impact';
 }
 
@@ -69,6 +69,7 @@ html, body, div {
     padding-bottom: 0px;
     background-image: url("../assets/me.jpg");
     background-size: 100%;
+    box-shadow: 5px 5px 10px black;
     
 }
 
