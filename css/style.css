@@ -1,0 +1,77 @@
+html, body, div {
+    margin: 0px;
+    height: 100%;
+    font-family : "Helvetica";
+    color: #06070e;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color: #94a187;
+    background-image: linear-gradient(#94a187, #aeb8a4);
+}
+
+.mainBox {
+    display: grid;
+    grid-column: 2 / span 8;;
+    grid-row: 2 / span 8;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color: #29524a;
+    background-image: linear-gradient(to bottom right, #204e46, #6c9b91);
+    
+}
+
+.titleBox {
+    font-size: 100%;
+    margin-left: 30px;
+    grid-column : 1 / span 3;
+    grid-row : 1 / span 2;
+    font-family: 'Impact';
+}
+
+.nameBox {
+    font-size: 125%;
+    margin-left: 30px;
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 1;
+    margin-top: 30px;
+    font-family: 'Impact';
+}
+
+.leftInfos {
+    margin-left: 30px;
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 5;
+    margin-top: 20px;
+}
+
+.infoName {
+    font-weight: bold;
+}
+
+.infoValue {
+    padding-left: 5em;
+}
+
+.leftBio {
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 5;
+    margin-left: 30px;
+}
+
+.myPicture {
+    grid-column: 4 / span 2;
+    grid-row: 2 / span 8;
+    padding: 25px;
+    padding-bottom: 0px;
+    background-image: url("../assets/me.jpg");
+    background-size: 100%;
+    
+}
+
+td {
+    text-align: left;
+}
